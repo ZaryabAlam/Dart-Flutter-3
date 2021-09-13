@@ -1,0 +1,24 @@
+//Concatenation Addition
+void main()
+{
+ num a=5, b=10;
+ num c=a-b;
+ print("**Addition**");
+ print("Number 1 = ${a}");
+ print("Number 2 = ${b}");
+ print("Result   = ${c}");
+}
+
+//Concatenation Substraction
+void main()
+{
+  num a=12, b=3, c=2;
+  num d=a-b;
+  num e=d-c;
+  print("  **Substraction**");
+  print("Number 01        = ${a}");
+  print("Number 02        = ${b}");
+  print("Number 03        = ${c}");
+  print("1st Substraction = ${d}");
+  print("2nd Substraction = ${e}");
+}

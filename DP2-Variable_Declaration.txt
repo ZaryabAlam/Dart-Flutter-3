@@ -1,0 +1,5 @@
+////ghh Variable declaration, Variable print
+void main() {
+  var a="Hello World";
+  print(a);
+}

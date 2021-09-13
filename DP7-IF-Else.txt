@@ -1,0 +1,10 @@
+void main() { 
+   num pak = 120; 
+   num aus = 20;
+  
+   if (pak>aus) { 
+      print("Pak Won!"); 
+   } else { 
+      print("Pak Loss!"); 
+   } 
+}

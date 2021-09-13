@@ -1,0 +1,24 @@
+// Increament
+void main() 
+{    
+  num i=1, t=2 ,j;  
+  print("Loop Multiplication");
+  
+  for (i = 1; i <= 10; i++)
+  {
+      j = t * i;
+      print("2 x ${i} = ${j}");  
+  }
+}
+
+// Decreament
+void main(){
+  num i=1, t=2, j;
+  print("Downward Table");
+  
+  for(i=10;i>=1;i--)
+  {
+    j=t*i;
+    print("2 x ${i} = ${j}");    
+  }
+}

@@ -1,0 +1,36 @@
+// int declaration
+void main()
+{
+  int a=2;
+    print (a);
+}
+
+// double declaration
+void main()
+{
+  double b=6.9;
+  print(b);
+}
+
+// num declaration
+void main()
+{
+  num ab=2, ac=1.4;
+  print (ab);
+  print (ac);
+}
+
+// String declaration
+void main()
+{
+  String a="Sixty Nine 69";
+  print (a);
+}
+
+// Boolean True/False
+void main()
+{
+  num a=6, b=12;
+  bool c= a<b;
+  print (c);
+}

@@ -1,0 +1,17 @@
+//List
+
+void main() {
+  var list1 = ["Karachi", "Lahore", "Islamabad"];
+  var list2 = ["1st" ,"2nd", "3rd"];
+  print(list1[0]);
+  print(list2[0]);
+}
+
+//Update List
+
+void main(){
+  var alist=["Cat","Lion","Tiger","Whale","Wolve"];
+  alist.replaceRange(3,4, ["Fox"]);
+  print(alist);
+  print(alist[3]);
+}

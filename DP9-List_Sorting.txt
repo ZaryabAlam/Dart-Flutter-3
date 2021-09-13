@@ -1,0 +1,54 @@
+//Sorting an array
+void main(){
+  var list1=[5,4,3,2,1];
+  print("Unsorted ${list1}");
+  list1.sort();
+  print("Sorted   ${list1}");
+}
+
+//isEmpty array
+void main(){
+  var listz=[];
+  listz.add("100");
+  
+  if(listz.isEmpty)
+  {print("Array is Empty");
+  }
+  
+  else if(listz.isNotEmpty)
+  {print("Array is not Empty");
+  }
+  
+  print("Array = ${listz}");
+}
+
+\\Reversed Array
+void main(){
+  var listo=[1,2,3,4,5,6,7,8,9];
+  print(listo);
+  var x=List.of (listo.reversed);
+  print(x);
+}
+
+// Insert Remove Array
+void main(){
+  var lista=["Car","Bike","Bus"];
+  print(lista);
+  lista.insertAll(3,["Train","Plane"]);
+  print(lista);
+  
+  lista.remove("Plane");
+  print(lista);
+
+  lista.removeAt(lista.length-1);
+  print(lista);
+}
+
+//Remove range
+void main(){
+  var lista=["Car","Bike","Bus","Train","Plane"];
+  print(lista);
+  
+  lista.removeRange(4,5);
+  print(lista);
+}

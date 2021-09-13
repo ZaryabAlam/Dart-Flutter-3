@@ -1,0 +1,39 @@
+// add operator
+void main()
+{
+  num a=10, b=20;
+  num c=a+b;
+  print (c);
+}
+
+// substract operator
+void main()
+{
+  num a=30, b=20;
+  num c=a-b;
+  print (c);
+}
+
+// multiply operator
+void main()
+{
+  num a=3, b=2;
+  num c=a*b;
+  print (c);
+}
+
+// divide operator
+void main()
+{
+  num a=10, b=5;
+  num c=a/b;
+  print (c);
+}
+
+// remainder-modula operator %
+void main()
+{
+  num a=12, b=5;
+  num c=a%b;
+  print (c);
+}
